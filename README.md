@@ -17,7 +17,15 @@ yarn run serve
 yarn run build
 ```
 
-The default build target is set to build the navBar components as library
+The default build target is set to build the navBar components as library.
+
+Run:
+
+```
+yarn build:menu
+```
+To build the molgenis menu, where the menu data is expected to be passed via the window molgenisMenu property, the build included Vue.
+
 
 ### Run your tests
 ```
